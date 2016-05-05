@@ -7,6 +7,15 @@ public class Cama {
 	private double precioDia;
 	private int estado;
 	
+	
+	
+	public Cama(int numero, int categoria, double precioDia, int estado) {
+		this.numero = numero;
+		this.categoria = categoria;
+		this.precioDia = precioDia;
+		this.estado = estado;
+	}
+	
 	public int getNumero() {
 		return numero;
 	}
